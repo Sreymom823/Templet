@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.309);
+    font-family: 'Times New Roman', Times, serif
+   
+}
+.add{
+    background-color: aquamarine;
+}
+.sidebar{
+    background-color: white;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    flex: 0.5;
+}
+.sidebar-top {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 15px;
+    gap: 10px;
+}
+.sidebar-top span{
+    color: blue
+}
+.sidebar-center{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    margin: 10px;
+    gap: 5px;
+    
+}
+.sidebar-buttom{
+    background-image: url(../image/images.jfif);
+    background-size:cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    gap: 5px;
+}
+.sidebar-buttom button{
+    border: none; 
+    padding: 5px;
+}
+.sidebar-buttom strong{
+    color: red;
+}
+label{
+    color: black
+}
+.header-left{
+    flex: 1;
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sidebar-buttom{
+    display: flex;
+    flex: 2;
+}
+.sidebar-top img{
+    border-radius: 25px;
+}
+.container{
+    margin: 0px 10px 0px 10px;
+}
+.maincontent{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex: 0.3;
+}
+
+.header-left{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+.icon-one{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.profile-img img{
+    border-radius: 20px;
+}
+.header-center{
+    border-radius: 20px;
+    background-color: white;
+    flex: 2;
+    display: flex;
+    margin: 10px;
+    border: none;
+}
+input{
+    border: none;
+    margin: 5px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    
+}
+button{
+    border-radius: 20px;
+}
+.header-right{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.baby{
+    background-color: aliceblue;
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.babyone{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.637);
+    border-radius: 20px;
+}
+.babytwo{
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+.img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px;
+}
+.profile-text{
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    border-radius:30px;
+}
+.data-left{
+    display: flex;
+    flex: 2;
+}
+
+.container{
+    display: flex;
+    flex: 3;
+}
+.data-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    margin: 0px 15px 5px 15px;
+}
+.nav i{
+    color: orange;
+}
+.text-buttom-top-left i{
+    color: orange;
+}
+.nav-icon{
+    background-color: white;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+    padding: 1px;
+}
+.all-card{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgba(128, 128, 128, 0.259);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.card img{
+   margin: 10px;
+}
+.data-top{
+    margin-top: -15px;
+}
+.data-top h3{
+    margin-left: 5px;
+}
+.data-buttom{
+    border-radius: 20px;
+    outline: none
+}
+.text-buttom{
+    margin: 0px 10px 0px 10px;
+}
+.text-buttom-top{
+    display: flex;
+    justify-content: space-between;
+}
+.text-buttom-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom{
+    display: flex;
+}
+.head{
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button2{
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.button2 button{
+   background-color: rgba(228, 215, 215, 0.481);
+   border: none;
+   padding: 4px;
+   width: 70px;
+   color: red;
+  
+}
+.body{
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+  
+}
+.text span:nth-child(1){
+   color: rgb(16, 228, 16);
+}
+.body-left,.body-right,.body-center{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px grey solid;
+    margin: 0px 10px 0px 10px;
+    justify-content: space-between;
+    margin: 2px;
+    
+}
+.profile-img{
+    align-items: center;
+    display: flex; 
+}
+.data-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.data-right-top{
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+.data-right-center{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+.data-right-buttom{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.balance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tota{
+    display: flex;
+    gap: 5px;
+    align-items: center; 
+}
+.tota i{
+    color: green;
+}
+.baba{
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.baba button{
+    border: none;
+}
+.oneone{
+    display: flex;
+    flex-direction: column;
+}
+.head span{
+    color: rgb(89, 89, 252);
+}
+.final img{
+    border-radius: 20px;
+}
+.data-right-buttom{
+    border-radius: 15px;
+    background-color: white;
+}
+.final{
+    margin: 10px;
+    display: flex;
+    flex: 0.5;
+    justify-content: space-between;
+}
+
+.cat{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.icoco{
+    display: flex;
+    margin: 10px;
+}
+.dog{
+    display: flex;
+    flex-direction: column;
+}
+.papa{
+    background-color: rgb(198, 189, 189);
+    padding: 5px;
+}
+
+.history:last-child{
+    border-bottom: none;
+}
+@media(max-width:834px ){
+    .container{
+        display: flex;
+        justify-content:space-evenly ;
+        flex-direction: column;
+    
+    }
+    .header-left span {
+        display: none;
+    }
+    .header{
+        flex: 0.1;
+        width: 70%;
+    }
+    .data-top{
+       width: 78%;
+    }
+    .nav-icon{
+        margin: 10px;
+        padding: 5px;
+        height: 100%;
+    }
+    .all-card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 88%;
+        height: 220px;
+        overflow: scroll;
+    }
+    .body{
+        width: 66%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 330px;
+        overflow: scroll;
+    }
+    .head{
+        width: 85%;
+    }
+    .card{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+   }
+   .data-right{
+    width: 68%;
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3,1fr);
+ 
+    }
+    .icon, h4, .sidebar-top{
+      display: grid;
+    }
+   
+}
+
